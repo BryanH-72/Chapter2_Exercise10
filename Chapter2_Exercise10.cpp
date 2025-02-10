@@ -12,6 +12,6 @@ int main()
     int capacity, miles, MPG;
     capacity = 15;
     miles = 375;
-    MPG = 375 / 15;
+    MPG = miles / capacity;
     cout << "A car that holds " << capacity << " gallons of gasoline and can travel " << miles << " miles has a MPG of " << MPG << "." << endl;
 }
